@@ -6,3 +6,4 @@ class Productserializer(serializers.ModelSerializer):
     class Meta:
         model=Product
         fields= "__all__"
+        

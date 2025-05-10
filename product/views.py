@@ -8,3 +8,7 @@ def get_products(request):
     all_products=Product.objects.all()
     print(all_products)
     return response("Hello Rakib")
+
+@api_view(["GET"])
+def get_product(request,pk):
+    pass
